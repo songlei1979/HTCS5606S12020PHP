@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e8567faf-702b-4121-bf6f-f65bbc24ae41" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
   <component name="ComposerSettings">
-    <execution>
-      <executable />
-    </execution>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JsBowerSettings">
     <node-interpreter value="project" />
@@ -16,7 +24,47 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
+  <component name="ProjectId" id="1bs8KNp7Ch3EPMZmBbL5yF6FGXX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e8567faf-702b-4121-bf6f-f65bbc24ae41" name="Default Changelist" comment="" />
+      <created>1589409375748</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589409375748</updated>
+      <workItem from="1589409377367" duration="358000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2031" y="398" key="Github.ShareDialog" timestamp="1589409564685">
+      <screen x="1280" y="23" width="1920" height="985" />
+    </state>
+    <state x="2031" y="398" key="Github.ShareDialog/0.23.1280.777/1280.23.1920.985@1280.23.1920.985" timestamp="1589409564685" />
+    <state x="1955" y="156" key="Github.UntrackedFilesDialog" timestamp="1589409570922">
+      <screen x="1280" y="23" width="1920" height="985" />
+    </state>
+    <state x="1955" y="156" key="Github.UntrackedFilesDialog/0.23.1280.777/1280.23.1920.985@1280.23.1920.985" timestamp="1589409570922" />
+    <state x="2013" y="431" key="NewPhpFileDialog" timestamp="1589409498799">
+      <screen x="1280" y="23" width="1920" height="985" />
+    </state>
+    <state x="2013" y="431" key="NewPhpFileDialog/0.23.1280.777/1280.23.1920.985@1280.23.1920.985" timestamp="1589409498799" />
   </component>
 </project>

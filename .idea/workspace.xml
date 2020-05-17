@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e8567faf-702b-4121-bf6f-f65bbc24ae41" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld.php" beforeDir="false" afterPath="$PROJECT_DIR$/helloworld.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week5/class1.php" beforeDir="false" afterPath="$PROJECT_DIR$/week5/class1.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +12,13 @@
   <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,6 +44,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="SvnConfiguration">
@@ -52,7 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1589409375748</updated>
       <workItem from="1589409377367" duration="752000" />
-      <workItem from="1589747558603" duration="2393000" />
+      <workItem from="1589747558603" duration="3082000" />
     </task>
     <servers />
   </component>

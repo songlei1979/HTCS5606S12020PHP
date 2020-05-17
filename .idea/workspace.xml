@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e8567faf-702b-4121-bf6f-f65bbc24ae41" name="Default Changelist" comment="" />
+    <list default="true" id="e8567faf-702b-4121-bf6f-f65bbc24ae41" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/week5/class1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="Git.Settings">
@@ -34,7 +38,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -46,7 +50,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1589409375748</updated>
-      <workItem from="1589409377367" duration="358000" />
+      <workItem from="1589409377367" duration="752000" />
+      <workItem from="1589747558603" duration="1030000" />
     </task>
     <servers />
   </component>
@@ -62,9 +67,13 @@
       <screen x="1280" y="23" width="1920" height="985" />
     </state>
     <state x="1955" y="156" key="Github.UntrackedFilesDialog/0.23.1280.777/1280.23.1920.985@1280.23.1920.985" timestamp="1589409570922" />
-    <state x="2013" y="431" key="NewPhpFileDialog" timestamp="1589409498799">
+    <state x="2013" y="431" key="NewPhpFileDialog" timestamp="1589750743340">
       <screen x="1280" y="23" width="1920" height="985" />
     </state>
-    <state x="2013" y="431" key="NewPhpFileDialog/0.23.1280.777/1280.23.1920.985@1280.23.1920.985" timestamp="1589409498799" />
+    <state x="2013" y="431" key="NewPhpFileDialog/0.23.1280.777/1280.23.1920.985@1280.23.1920.985" timestamp="1589750743340" />
+    <state x="1617" y="67" key="SettingsEditor" timestamp="1589751123193">
+      <screen x="1280" y="23" width="1920" height="985" />
+    </state>
+    <state x="1617" y="67" key="SettingsEditor/0.23.1280.777/1280.23.1920.985@1280.23.1920.985" timestamp="1589751123193" />
   </component>
 </project>

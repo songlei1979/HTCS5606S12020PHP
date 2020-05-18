@@ -5,3 +5,5 @@ $who = "lei";
 
 echo $grating;
 echo $who;
+
+echo "<p>" . $grating . " " . $who . "</p>"; //dot means merge strings in php

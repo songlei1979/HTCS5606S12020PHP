@@ -7,8 +7,8 @@ $t = date("Y-m-d"); //https://www.php.net/manual/en/function.date.php
 $t1 = date("H:i:s");
 echo $t." ".$t1;
 
-$hour = date("H");
-$minutes = date("i");
+$hour = intval(date("H"));
+$minutes = intval(date("i"));
 
 if ($hour>10 && $minutes < 15){ //&& means and || means or
     echo "Have good morning";

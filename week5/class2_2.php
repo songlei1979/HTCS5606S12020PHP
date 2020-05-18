@@ -9,7 +9,8 @@ echo $t." ".$t1;
 
 $hour = intval(date("H"));
 $minutes = intval(date("i"));
-
+echo "<p>h: ".$hour."</p>";
+echo "<p>m: ".$minutes."</p>";
 if ($hour>10 && $minutes < 15){ //&& means and || means or
     echo "Have good morning";
 }elseif ($hour<20){

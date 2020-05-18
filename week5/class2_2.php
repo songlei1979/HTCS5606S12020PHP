@@ -11,7 +11,7 @@ $hour = intval(date("H"));
 $minutes = intval(date("i"));
 echo "<p>h: ".$hour."</p>";
 echo "<p>m: ".$minutes."</p>";
-if ($hour>10 && $minutes < 15){ //&& means and || means or
+if ($hour>=10 && $minutes < 17){ //&& means and || means or
     echo "Have good morning";
 }elseif ($hour<20){
     echo "Have a good day";

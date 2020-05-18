@@ -22,11 +22,11 @@ echo str_word_count($grating)." string word count<br>";
 // string reverse
 echo strrev($grating)." string reverse<br>";
 // string position
-echo strpos($grating, "Hello")."word position<br>";
+echo strpos($grating, "Hello")." word position<br>";
 //string replace
 echo str_replace($grating, "Hello", "byebye")."
-word replace<br>";
+ word replace<br>";
 //to uppercase
-echo strtoupper($grating)."To Upper case<br>";
+echo strtoupper($grating)." To Upper case<br>";
 //to lower
-echo strtolower($grating)."To lower case<br>";
+echo strtolower($grating)." To lower case<br>";

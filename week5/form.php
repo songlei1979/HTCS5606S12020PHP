@@ -7,7 +7,7 @@
 <p>name inside input box is your request data name</p>
 <form action="result.php" method="get">
     <p>
-        mark: <input type="number" name="mark">
+        mark: <input type="password" name="mark">
     </p>
     <p>
         <input type="submit" value="show">

@@ -62,6 +62,8 @@
       <workItem from="1589409377367" duration="752000" />
       <workItem from="1589747558603" duration="3843000" />
       <workItem from="1589834589412" duration="6881000" />
+      <workItem from="1589887617345" duration="426000" />
+      <workItem from="1589920398226" duration="112000" />
     </task>
     <servers />
   </component>
@@ -77,9 +79,10 @@
       <screen x="1280" y="23" width="1920" height="985" />
     </state>
     <state x="1955" y="156" key="Github.UntrackedFilesDialog/0.23.1280.777/1280.23.1920.985@1280.23.1920.985" timestamp="1589409570922" />
-    <state x="2013" y="431" key="NewPhpFileDialog" timestamp="1589840760881">
-      <screen x="1280" y="23" width="1920" height="985" />
+    <state x="489" y="315" key="NewPhpFileDialog" timestamp="1589887637644">
+      <screen x="0" y="23" width="1280" height="706" />
     </state>
+    <state x="489" y="315" key="NewPhpFileDialog/0.23.1280.706@0.23.1280.706" timestamp="1589887637644" />
     <state x="2013" y="431" key="NewPhpFileDialog/0.23.1280.777/1280.23.1920.985@1280.23.1920.985" timestamp="1589840760881" />
     <state x="1617" y="67" key="SettingsEditor" timestamp="1589751123193">
       <screen x="1280" y="23" width="1920" height="985" />

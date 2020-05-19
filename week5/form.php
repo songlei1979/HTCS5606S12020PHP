@@ -1,7 +1,7 @@
 <?php
 ?>
 
-<form action="result.php" method="post">
+<form action="https://unitec.ac.nz" method="post">
     <p>
         mark: <input type="number" name="mark">
     </p>

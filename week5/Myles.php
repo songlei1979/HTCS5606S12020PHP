@@ -3,7 +3,8 @@
 date_default_timezone_set('Pacific/Auckland');
 //take the time from system
 //date function to tak ethe time from system or onliune
-$t = data("y-m-d"); //https://www.php.net/manual/en/function.date.php
+$t = date("y-m-d"); //https://www.php.net/manual/en/function.date.php
+//in line 6, it was data
 $t1 = date("H.i.s");
 echo $t. " ".$t1;
 

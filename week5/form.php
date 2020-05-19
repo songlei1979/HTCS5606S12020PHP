@@ -5,7 +5,7 @@
     and process for you</p>
 <p>method in form, is your request method</p>
 <p>name inside input box is your request data name</p>
-<form action="result.php" method="post">
+<form action="result.php" method="get">
     <p>
         mark: <input type="number" name="mark">
     </p>

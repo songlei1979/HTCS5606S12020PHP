@@ -1,5 +1,5 @@
 <?php
-$res = $_POST["mark"]; //recieve the post request
+$res = $_POST["mark"]; //receive the post request
 if ($res > 100 || $res < 0){
     echo "Wrong input";
 }elseif($res > 90){
@@ -11,3 +11,4 @@ if ($res > 100 || $res < 0){
 }elseif ($res < 50){
     echo "D";
 }
+?>

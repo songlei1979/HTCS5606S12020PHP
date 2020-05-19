@@ -12,6 +12,6 @@ if (isset($_POST["width"])){ //isset checks the post data
 //$area = $w * $h; // formula
 //f(x,y) = x * y
 function calculateArea($width, $height){ //parameters for input
-    $area = $width * $height;
-    return $area;
+    return $width * $height;
+    //return give result out
 }

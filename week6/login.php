@@ -41,7 +41,7 @@ if (isset($_POST["username"])){
 }else{
     ?>
 <script>
-    window.open("loginform.html"); // go to login form
+    window.open("loginform.html","_self"); // go to login form
 </script>
 <?php
 }

@@ -38,6 +38,13 @@ if (isset($_POST["username"])){
     }
 
 
+}else{
+    ?>
+<script>
+    window.open("loginform.html"); // go to login form
+</script>
+<?php
 }
+
 
 

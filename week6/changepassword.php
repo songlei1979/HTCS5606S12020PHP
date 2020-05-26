@@ -31,3 +31,5 @@ if (isset($_POST["oldpwd"])) { //isset check variable exist or not
     }
 
 }
+$connection->close();
+

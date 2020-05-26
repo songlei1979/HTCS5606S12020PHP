@@ -30,7 +30,7 @@ if (isset($_POST["username"])){
             if ($row["password"] == $password){ //check password
                 echo "access granted";
                 session_start();
-                $_SESSION["username"] = $username;
+                $_SESSION["username"] = $username; //set session here
                 // if login, we allow user to do something
                 ?>
                 <p><a href="profile.php">profile</a></p>

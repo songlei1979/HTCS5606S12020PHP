@@ -35,4 +35,6 @@ if (isset($_POST["oldpwd"])) { //isset check variable exist or not
 
 }
 $connection->close();
+?>
+<p><a href="logout.php">Logout</a></p>
 

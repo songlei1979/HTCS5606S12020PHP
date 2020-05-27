@@ -22,10 +22,7 @@ if (isset($_POST["username"])){
                 session_start();
                 $_SESSION["username"] = $username; //set session here
                 // if login, we allow user to do something
-                ?>
-                <p><a href="profile.php">profile</a></p>
-                <p><a href="changepasswordform.php">change password</a></p>
-                <?php
+
             }else{
                 echo "wrong password";
             }
@@ -43,7 +40,7 @@ if (isset($_POST["username"])){
 <?php
 }
 ?>
-<p><a href="logout.php">Logout</a></p>
+
 
 
 

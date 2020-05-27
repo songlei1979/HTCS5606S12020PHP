@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Food</title>
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body onload="leftDividerAnimation()">
+<div id = "header">
+    <div id="headerPicture">
+        <img src="image/header.jpg">
+    </div>
+    <div id="menu">
+        <ul>
+            <li><a href="index.html" >Home</a></li>
+            <li><a href="food.html" class="active">Food</a></li>
+            <li><a href="phone.html">Phone</a></li>
+            <li><a href="https://www.unitec.ac.nz/">Unitec</a></li>
+        </ul>
+
+    </div>
+    <div id ="topAnimation">
+        XXX Supermarket
+    </div>
+
+</div>
+<div id = "content">
+    <p>Food Page</p>
+    <div id = "leftDiv">
+        <img id = "leftDivPic" src="image/header.jpg">
+    </div>
+    <div id = "middle">
+        <div class="product">
+            <p><img src="image/bread.jpg"></p>
+            <p>Price: $2</p>
+            <p>
+                <input placeholder="qty" type="number" id = "breadQty">
+                <button id = "addBread" onclick="addProductToCart(this.id)">Add to cart</button>
+            </p>
+        </div>
+        <div class="product">
+            <p><img src="image/milk.jpg"></p>
+            <p>Price: $3</p>
+            <p>
+                <input placeholder="qty" type="number" id = "milkQty">
+                <button id = "addMilk" onclick="addProductToCart(this.id)">
+                    Add to cart</button>
+            </p>
+        </div>
+        <div class="product">
+            <p><img src="image/rice.jpg"></p>
+            <p>Price: $2.5</p>
+            <p>
+                <input placeholder="qty" type="number">
+                <button>Add to cart</button>
+            </p>
+        </div>
+    </div>
+    <div id="rightDiv">
+        <h2>Cart</h2>
+        <button id ="checkOut" onclick="invoice()">Check out</button>
+    </div>
+</div>
+
+<!-- The Invoice -->
+<div id="myModal" class="modal">
+
+    <!-- Invoice content -->
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <div id = "invoicePlace">Invoice</div>
+    </div>
+
+</div>
+
+<div id = "footer">&copy; Unitec Instiute of Technology</div>
+</body>
+</html>

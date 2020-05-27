@@ -7,12 +7,9 @@
     <script src="js/script.js"></script>
 </head>
 <body onload="leftDividerAnimation()">
-
 <?php
 include_once "header.php";
 ?>
-
-
 <div id = "content">
     <p>Home Page</p>
     <div id = "leftDiv">
@@ -20,13 +17,8 @@ include_once "header.php";
     </div>
     <div id="rightDiv">My home page ..</div>
 </div>
-
-
 <?php
 include_once "footer.php";
 ?>
-
-
-
 </body>
 </html>

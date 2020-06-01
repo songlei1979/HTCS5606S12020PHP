@@ -11,7 +11,6 @@ if (isset($_POST["username"])){
     $password = $_POST["password"];
 
     include_once "dbconnection.php";
-    $connection = dbconn();
 
     // is the username in my table
     $sql = "select * from Users where username = '$username'"; //this is our query

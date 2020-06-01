@@ -11,12 +11,13 @@ if (isset($_POST["username"])){
     $password = $_POST["password"];
 
     include_once "dbconnection.php";
-
-    // is the username in my table
-
-
-}else{
-
+//I will use my login function here
+    if (login($username,$password)){ // if true (login success)
+        session_start();
+        $_SESSION["username"] = $username;
+    }else{ //login fail
+        echo "Wrong username or password";
+    }
 }
 ?>
 

@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e8567faf-702b-4121-bf6f-f65bbc24ae41" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CaseStudy1/aboutus.php" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy1/aboutus.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/week6/dbconnection.php" beforeDir="false" afterPath="$PROJECT_DIR$/week6/dbconnection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week6/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/week6/login.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +86,7 @@
       <workItem from="1590525478812" duration="6235000" />
       <workItem from="1590543500074" duration="6000" />
       <workItem from="1590611399086" duration="6779000" />
-      <workItem from="1591043823436" duration="1006000" />
+      <workItem from="1591043823436" duration="2188000" />
     </task>
     <servers />
   </component>
@@ -101,6 +101,10 @@
       <screen x="1280" y="23" width="1920" height="985" />
     </state>
     <state x="2370" y="289" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.777/1280.23.1920.985@1280.23.1920.985" timestamp="1590527657014" />
+    <state x="2006" y="171" key="#com.intellij.ide.util.MemberChooser" timestamp="1591045179065">
+      <screen x="1280" y="23" width="1920" height="985" />
+    </state>
+    <state x="2006" y="171" key="#com.intellij.ide.util.MemberChooser/0.23.1280.777/1280.23.1920.985@1280.23.1920.985" timestamp="1591045179065" />
     <state x="2031" y="398" key="Github.ShareDialog" timestamp="1589409564685">
       <screen x="1280" y="23" width="1920" height="985" />
     </state>

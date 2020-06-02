@@ -1,4 +1,5 @@
 <?php
 include_once "dbconnection.php";
-showRecords();
+$records = showRecords();
+print_r($records);
 

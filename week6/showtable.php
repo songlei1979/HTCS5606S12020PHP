@@ -14,24 +14,7 @@
     </tr>
     <?php
 
-    include_once "dbconnection.php";
-    $connection = dbconn();
-    $sql = "select * from Users"; // create query
-    $result = $connection->query($sql); //run the query on this connection
-
-    if ($result->num_rows > 0){ //check if there is record in the result
-        while ($row = $result->fetch_assoc()){ //show each associated row
-            echo "<tr>";
-            echo "<td>".$row['id']."</td>";
-            echo "<td>".$row['username']."</td>";
-            echo "<td>".$row['password']."</td>";
-            echo "<td>".$row['name']."</td>";
-            echo "</tr>";
-        }
-    }else{
-        echo "no result in the table";
-    }
-    $connection->close();
+    showRecords();
     ?>
 </table>
 </body>

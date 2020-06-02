@@ -1,12 +1,8 @@
 <?php
 //Global variable can be used anywhere
-
-//local variable only can be used inside a function
-
-
 $a = 4;
 $b = 5;
-
+//local variable only can be used inside a function
 function cal(){
     echo "a = ".$GLOBALS['a']."<br>"; //a and b is global variable
     echo "b = ".$GLOBALS['b']."<br>";

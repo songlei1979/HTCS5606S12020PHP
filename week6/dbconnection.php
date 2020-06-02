@@ -18,7 +18,6 @@ function dbconn(){
     }
 }
 
-
 /**
  * @name login
  * @param $username
@@ -48,7 +47,6 @@ function login($username, $password){
     }
 }
 
-
 /**
  * @name showProfile
  * @param $username
@@ -65,5 +63,28 @@ function showProfile($username){ //this function has no return
             echo "<p>".$row["name"]."</p>";
             $conn->close();
         }
+    }
+}
+
+function changePassword($username, $oldPassword, $newPassword){
+    $conn = dbconn();
+    $sql = "select password from Users where username='$username'"; //find the old password
+    $result = $conn->query($sql);
+    if ($result->num_rows == 1) {
+        while ($row = $result->fetch_assoc()) {
+            $oldPwdInDb = $row["password"];
+        }
+    }
+
+    if ($oldPassword == $oldPwdInDb) { //check the old password input
+        $sql = "update Users set password = '";
+        $sql .= $newPassword;
+        $sql .= "' where username = '$username'";
+        $conn->query($sql);
+        $conn->close();
+        return true; //password changed, return true
+    } else {
+        $conn->close();
+        return false; //if not return false
     }
 }

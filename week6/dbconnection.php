@@ -96,6 +96,11 @@ function changePassword($username, $oldPassword, $newPassword){
     }
 }
 
+
+/**
+ * @name showRecords
+ * @return array // records
+ */
 function showRecords(){
     $connection = dbconn();
     $sql = "select * from Users"; // create query

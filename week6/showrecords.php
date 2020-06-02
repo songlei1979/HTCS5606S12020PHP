@@ -1,6 +1,6 @@
 <?php
 include_once "dbconnection.php";
-
+$connection = dbconn();
 $sql = "select * from Users"; // create query
 $result = $connection->query($sql); //run the query on this connection
 

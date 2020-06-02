@@ -66,6 +66,13 @@ function showProfile($username){ //this function has no return
     }
 }
 
+/**
+ * @name changePassword
+ * @param $username
+ * @param $oldPassword
+ * @param $newPassword
+ * @return bool //changed or not
+ */
 function changePassword($username, $oldPassword, $newPassword){
     $conn = dbconn();
     $sql = "select password from Users where username='$username'"; //find the old password
@@ -88,3 +95,4 @@ function changePassword($username, $oldPassword, $newPassword){
         return false; //if not return false
     }
 }
+

@@ -6,5 +6,6 @@ $records = showRecords();
 $i = 0;
 while ($i < sizeof($records)){
     print_r($records[$i]);
+    $i = $i + 1;
 }
 

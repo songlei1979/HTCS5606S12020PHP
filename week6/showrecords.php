@@ -9,8 +9,8 @@ while ($i < sizeof($records)){
     $record = $records[$i]; //inside each record, we have place 0 for id, place 1 for username, place 2 for password, place 3 for name
     ?>
     <p><?php echo $record->id; ?>
-        <?php echo $record->username; ?>
-        <?php //echo $record->password; ?>
+        <?php echo $record->getUsername(); ?>
+        <?php echo $record->getPassword(); ?>
         <?php echo $record->name; ?>
     </p>
 <?php

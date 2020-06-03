@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8567faf-702b-4121-bf6f-f65bbc24ae41" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CaseStudy1/class/DB.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week6/class/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/week6/class/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week6/createUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/week6/createUser.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +88,7 @@
       <workItem from="1591130035435" duration="5719000" />
       <workItem from="1591167686127" duration="144000" />
       <workItem from="1591216739931" duration="398000" />
-      <workItem from="1591217300740" duration="5459000" />
+      <workItem from="1591217300740" duration="5846000" />
     </task>
     <servers />
   </component>
@@ -125,12 +123,12 @@
       <screen x="1280" y="23" width="1920" height="985" />
     </state>
     <state x="1879" y="196" key="NewPhpClassDialog/0.23.1280.777/1280.23.1920.985@1280.23.1920.985" timestamp="1591222281189" />
-    <state x="2013" y="431" key="NewPhpFileDialog" timestamp="1591049510356">
+    <state x="2013" y="431" key="NewPhpFileDialog" timestamp="1591223616044">
       <screen x="1280" y="23" width="1920" height="985" />
     </state>
     <state x="2014" y="447" key="NewPhpFileDialog/0.0.1280.800/1280.0.1920.1080@1280.0.1920.1080" timestamp="1589926257902" />
     <state x="489" y="315" key="NewPhpFileDialog/0.23.1280.706@0.23.1280.706" timestamp="1589887637644" />
-    <state x="2013" y="431" key="NewPhpFileDialog/0.23.1280.777/1280.23.1920.985@1280.23.1920.985" timestamp="1591049510356" />
+    <state x="2013" y="431" key="NewPhpFileDialog/0.23.1280.777/1280.23.1920.985@1280.23.1920.985" timestamp="1591223616044" />
     <state x="1617" y="67" key="SettingsEditor" timestamp="1591218265121">
       <screen x="1280" y="23" width="1920" height="985" />
     </state>

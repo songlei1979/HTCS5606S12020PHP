@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8567faf-702b-4121-bf6f-f65bbc24ae41" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/week6/class/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week6/dbconnection.php" beforeDir="false" afterPath="$PROJECT_DIR$/week6/dbconnection.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +54,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="settings.editor.selected.configurable" value="copyright" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -85,7 +87,10 @@
       <workItem from="1590543500074" duration="6000" />
       <workItem from="1590611399086" duration="6779000" />
       <workItem from="1591043823436" duration="6168000" />
-      <workItem from="1591130035435" duration="4958000" />
+      <workItem from="1591130035435" duration="5719000" />
+      <workItem from="1591167686127" duration="144000" />
+      <workItem from="1591216739931" duration="398000" />
+      <workItem from="1591217300740" duration="1735000" />
     </task>
     <servers />
   </component>
@@ -100,10 +105,10 @@
       <screen x="1280" y="23" width="1920" height="985" />
     </state>
     <state x="2370" y="289" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.777/1280.23.1920.985@1280.23.1920.985" timestamp="1590527657014" />
-    <state x="2006" y="171" key="#com.intellij.ide.util.MemberChooser" timestamp="1591133285444">
+    <state x="2006" y="171" key="#com.intellij.ide.util.MemberChooser" timestamp="1591217978323">
       <screen x="1280" y="23" width="1920" height="985" />
     </state>
-    <state x="2006" y="171" key="#com.intellij.ide.util.MemberChooser/0.23.1280.777/1280.23.1920.985@1280.23.1920.985" timestamp="1591133285444" />
+    <state x="2006" y="171" key="#com.intellij.ide.util.MemberChooser/0.23.1280.777/1280.23.1920.985@1280.23.1920.985" timestamp="1591217978323" />
     <state x="2031" y="398" key="Github.ShareDialog" timestamp="1589409564685">
       <screen x="1280" y="23" width="1920" height="985" />
     </state>
@@ -116,15 +121,23 @@
       <screen x="1280" y="23" width="1920" height="985" />
     </state>
     <state width="306" height="550" key="HiddenNamespacesPopup/0.23.1280.777/1280.23.1920.985@1280.23.1920.985" timestamp="1590527674021" />
+    <state x="1879" y="196" key="NewPhpClassDialog" timestamp="1591217595496">
+      <screen x="1280" y="23" width="1920" height="985" />
+    </state>
+    <state x="1879" y="196" key="NewPhpClassDialog/0.23.1280.777/1280.23.1920.985@1280.23.1920.985" timestamp="1591217595496" />
     <state x="2013" y="431" key="NewPhpFileDialog" timestamp="1591049510356">
       <screen x="1280" y="23" width="1920" height="985" />
     </state>
     <state x="2014" y="447" key="NewPhpFileDialog/0.0.1280.800/1280.0.1920.1080@1280.0.1920.1080" timestamp="1589926257902" />
     <state x="489" y="315" key="NewPhpFileDialog/0.23.1280.706@0.23.1280.706" timestamp="1589887637644" />
     <state x="2013" y="431" key="NewPhpFileDialog/0.23.1280.777/1280.23.1920.985@1280.23.1920.985" timestamp="1591049510356" />
-    <state x="1617" y="67" key="SettingsEditor" timestamp="1589751123193">
+    <state x="1617" y="67" key="SettingsEditor" timestamp="1591218265121">
       <screen x="1280" y="23" width="1920" height="985" />
     </state>
-    <state x="1617" y="67" key="SettingsEditor/0.23.1280.777/1280.23.1920.985@1280.23.1920.985" timestamp="1589751123193" />
+    <state x="1617" y="67" key="SettingsEditor/0.23.1280.777/1280.23.1920.985@1280.23.1920.985" timestamp="1591218265121" />
+    <state x="1821" y="23" width="838" height="1032" key="search.everywhere.popup" timestamp="1591216917171">
+      <screen x="1280" y="23" width="1920" height="985" />
+    </state>
+    <state x="1821" y="23" width="838" height="1032" key="search.everywhere.popup/0.23.1280.777/1280.23.1920.985@1280.23.1920.985" timestamp="1591216917171" />
   </component>
 </project>

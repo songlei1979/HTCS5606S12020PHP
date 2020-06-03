@@ -5,7 +5,7 @@
  * Version: 1.0
  * Purpose: for User
  */
-
+include_once "DB.php";
 class User
 {
     // They are my attributes
@@ -63,5 +63,12 @@ class User
 
     //They are my methods
 
+    public function save(){
+        $dbObject = new DB();
+        $dbconn = $dbObject->connection;
+        $sql = "insert into Users values (null, '$this->username', '$this->password', '$this->name')";
+        $dbconn->query($sql);
+        echo "saved to database";
+    }
 
 }

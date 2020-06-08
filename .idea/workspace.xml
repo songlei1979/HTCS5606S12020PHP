@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e8567faf-702b-4121-bf6f-f65bbc24ae41" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/CaseStudy1/class/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy1/class/User.php" afterDir="false" />
-    </list>
+    <list default="true" id="e8567faf-702b-4121-bf6f-f65bbc24ae41" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,7 +88,7 @@
       <workItem from="1591216739931" duration="398000" />
       <workItem from="1591217300740" duration="6553000" />
       <workItem from="1591562123855" duration="1280000" />
-      <workItem from="1591648448036" duration="3790000" />
+      <workItem from="1591648448036" duration="4354000" />
     </task>
     <servers />
   </component>

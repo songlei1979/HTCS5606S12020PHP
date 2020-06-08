@@ -11,9 +11,14 @@
             include_once "class/User.php";
             $user = new User(null, "", "", "");
             $categories = $user->viewCategories();
-            print_r($categories);
+            $i = 0;
+            while ($i < sizeof($categories)){
+                $category = $categories[$i];
+                echo "<li><a>".$category->name."</a></li>";
+                $i = $i + 1;
+            }
             ?>
-            <li><a href="aboutus.php">About US</a></li
+            <li><a href="aboutus.php">About US</a></li>
             <li><a href="https://www.unitec.ac.nz/">Unitec</a></li>
         </ul>
 

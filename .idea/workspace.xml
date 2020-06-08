@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e8567faf-702b-4121-bf6f-f65bbc24ae41" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CaseStudy1/class/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy1/class/Category.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CaseStudy1/class/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy1/class/Product.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week6/~$Presentation1.pptx" beforeDir="false" />
-    </list>
+    <list default="true" id="e8567faf-702b-4121-bf6f-f65bbc24ae41" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,7 +88,7 @@
       <workItem from="1591216739931" duration="398000" />
       <workItem from="1591217300740" duration="6553000" />
       <workItem from="1591562123855" duration="1280000" />
-      <workItem from="1591648448036" duration="940000" />
+      <workItem from="1591648448036" duration="1340000" />
     </task>
     <servers />
   </component>
@@ -108,11 +103,11 @@
       <screen x="1280" y="23" width="1920" height="985" />
     </state>
     <state x="2370" y="289" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.777/1280.23.1920.985@1280.23.1920.985" timestamp="1590527657014" />
-    <state x="2006" y="182" key="#com.intellij.ide.util.MemberChooser" timestamp="1591649256497">
-      <screen x="1280" y="23" width="1920" height="1057" />
+    <state x="2006" y="171" key="#com.intellij.ide.util.MemberChooser" timestamp="1591649763097">
+      <screen x="1280" y="23" width="1920" height="985" />
     </state>
     <state x="2006" y="182" key="#com.intellij.ide.util.MemberChooser/0.23.1280.705/1280.23.1920.1057@1280.23.1920.1057" timestamp="1591649256497" />
-    <state x="2006" y="171" key="#com.intellij.ide.util.MemberChooser/0.23.1280.777/1280.23.1920.985@1280.23.1920.985" timestamp="1591222473276" />
+    <state x="2006" y="171" key="#com.intellij.ide.util.MemberChooser/0.23.1280.777/1280.23.1920.985@1280.23.1920.985" timestamp="1591649763097" />
     <state x="2031" y="398" key="Github.ShareDialog" timestamp="1589409564685">
       <screen x="1280" y="23" width="1920" height="985" />
     </state>

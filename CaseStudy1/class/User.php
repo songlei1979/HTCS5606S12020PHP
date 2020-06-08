@@ -5,6 +5,8 @@
  * Date: 2020-06-09
  * Version: 1
  */
+include_once "DB.php";
+include_once "Category.php";
 
 class User
 {
@@ -28,5 +30,19 @@ class User
         $this->name = $name;
     }
 
+    public function viewCategories(){
+        $conn = (new DB())->connection; //create connection from DB class
+        $sql = "select * from Category"; //my query
+        $categories = array(); //my categories is an array
+        $result = $conn->query($sql);
+        if ($result->num_rows > 0){
+            while ($row=$result->fetch_assoc()){
+                $category = new Category($row["id"], $row["name"], $row["picture"]); //each row in table is one category
+                array_push($categories, $category); //push category to category array
+            }
+        }
+        $conn->close(); //close database connection
+        return $categories;
+    }
 
 }

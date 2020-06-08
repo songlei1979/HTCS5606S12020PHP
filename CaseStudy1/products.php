@@ -18,14 +18,27 @@ include_once "header.php";
         <img id = "leftDivPic" src="image/header.jpg">
     </div>
     <div id = "middle">
-        <div class="product">
-            <p><img src="image/bread.jpg"></p>
-            <p>Price: $2</p>
-            <p>
-                <input placeholder="qty" type="number" id = "breadQty">
-                <button id = "addBread" onclick="addProductToCart(this.id)">Add to cart</button>
-            </p>
-        </div>
+        <?php
+            $categoryID = $_GET["categoryID"];
+            $products = $user->showProductsByCategory($categoryID);
+            $i = 0;
+            while ($i<sizeof($products)){
+                $product = $products[$i];
+        ?>
+                <div class="product">
+                    <p><img src="image/bread.jpg"></p>
+                    <p>Price: $2</p>
+                    <p>
+                        <input placeholder="qty" type="number" id = "breadQty">
+                        <button id = "addBread" onclick="addProductToCart(this.id)">Add to cart</button>
+                    </p>
+                </div>
+        <?php
+                $i = $i + 1;
+            }
+        ?>
+
+
 
     </div>
     <div id="rightDiv">

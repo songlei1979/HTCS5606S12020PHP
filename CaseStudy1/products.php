@@ -26,11 +26,11 @@ include_once "header.php";
                 $product = $products[$i];
         ?>
                 <div class="product">
-                    <p><img src="image/bread.jpg"></p>
-                    <p>Price: $2</p>
+                    <p><img src="image/<?php echo $product->image;?>"></p>
+                    <p>Price: <?php echo $product->price;?></p>
                     <p>
                         <input placeholder="qty" type="number" id = "breadQty">
-                        <button id = "addBread" onclick="addProductToCart(this.id)">Add to cart</button>
+                        <button id = "<?php echo $product->name; ?>>" onclick="addProductToCart(this.id)">Add to cart</button>
                     </p>
                 </div>
         <?php

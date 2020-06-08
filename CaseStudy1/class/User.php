@@ -65,7 +65,7 @@ class User
         if ($result->num_rows>0){
             while ($row = $result->fetch_assoc()){
                 $product = new Product($row["id"], $row["name"], $row["price"],
-                    $row["description"],$row["categoryID"]);
+                    $row['picture'], $row["description"],$row["categoryID"]);
                 array_push($products,$product);
             }
         }

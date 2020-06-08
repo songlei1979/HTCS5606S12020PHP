@@ -26,7 +26,7 @@ include_once "header.php";
                 $product = $products[$i];
         ?>
                 <div class="product">
-                    <p><img src="image/<?php echo $product->image;?>"></p>
+                    <p><img src="image/<?php echo $product->picture;?>"></p>
                     <p>Price: <?php echo $product->price;?></p>
                     <p>
                         <input placeholder="qty" type="number" id = "breadQty">

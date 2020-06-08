@@ -7,6 +7,7 @@
  */
 include_once "DB.php";
 include_once "Category.php";
+include_once "Product.php";
 
 class User
 {
@@ -30,6 +31,11 @@ class User
         $this->name = $name;
     }
 
+
+    /**
+     * @name viewCategories
+     * @return category array
+     */
     public function viewCategories(){
         $conn = (new DB())->connection; //create connection from DB class
         $sql = "select * from Category"; //my query
@@ -43,6 +49,22 @@ class User
         }
         $conn->close(); //close database connection
         return $categories;
+    }
+
+    public function showProductsByCategory($categoryID){
+        $conn = (new DB())->connection;
+        $sql = "select * from Product where categoryID=".$categoryID; // . means merge two string
+        $products = array();
+        $result = $conn->query($sql);
+        if ($result->num_rows>0){
+            while ($row = $result->fetch_assoc()){
+                $product = new Product($row["id"], $row["name"], $row["price"],
+                    $row["description"],$row["categoryID"]);
+                array_push($products,$product);
+            }
+        }
+        $conn->close();
+        return $products;
     }
 
 }

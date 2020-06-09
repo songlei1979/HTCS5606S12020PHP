@@ -16,10 +16,9 @@ function leftDividerAnimation() {
 function addProductToCart(e) {
     cart = $("#rightDiv");
     name1 = $(e).attr("name");
-    price = $(e).attr("price");;
-    // qty = ???;
-    console.log("hello world");
-    console.log(name1);
+    price = $(e).attr("price");
+    qty = $(e).prev().val();
+    console.log(qty);
 
 }
 

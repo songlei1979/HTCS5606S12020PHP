@@ -46,8 +46,9 @@ function invoice() {
     $("#invoicePlace").empty();
     i = 0;
     while ($("#rightDiv").children().length){
-        $("#invoicePlace").append($("#rightDiv").children()[i]);
-        i++;
+        console.log($("#rightDiv").children()[i]);
+        // $("#invoicePlace").append($("#rightDiv").children()[i]);
+        i=i+1;
     }
 
     $("#invoicePlace").append("<p>Total: "+total+"</p>");

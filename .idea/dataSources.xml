@@ -7,5 +7,23 @@
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://dno6xji1n8fm828n.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/eq8apmg97080j54s</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="Myles" uuid="25fcd116-f836-4bbe-baed-530e2baed6bf">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://arfo8ynm6olw6vpn.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/bhdh4cks7ou9mirv</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Max" uuid="1aeacfcb-7791-45f6-b437-48a6e06981af">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://zj2x67aktl2o6q2n.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/s3ykxtpz1s85tbul</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Shweta" uuid="779e88e2-472c-4ecd-b72e-199a8139d405">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://m7nj9dclezfq7ax1.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/b1m6lvq858bqg11k</jdbc-url>
+    </data-source>
   </component>
 </project>

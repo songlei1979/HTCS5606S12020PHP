@@ -13,26 +13,13 @@ function leftDividerAnimation() {
 //Left Divider Animation end
 
 //add product to cart
-function addProductToCart(buttonID) {
-    cart = document.getElementById("rightDiv");
-    switch (buttonID) {
-        case "addBread":
-            qty = document.getElementById("breadQty").value;
-            addHTML = document.createElement("p");
-            addHTML.className="orderedProducts";
-            addHTML.innerHTML = "Bread: "+qty+" Price: <strong class='price'>" +(2*Number(qty)) +"</strong>";
-            console.log(addHTML);
-            cart.insertBefore(addHTML, document.getElementById("checkOut"));
-            break;
-        case "addMilk":
-            qty = document.getElementById("milkQty").value;
-            addHTML = document.createElement("p");
-            addHTML.className="orderedProducts";
-            addHTML.innerHTML = "Milk: "+qty+" Price: <strong class='price'>"+(3*Number(qty)) +"</strong>";
-            console.log(addHTML);
-            cart.insertBefore(addHTML, document.getElementById("checkOut"));
-            break;
-    }
+function addProductToCart(e) {
+    cart = $("#rightDiv");
+    name1 = $(e).attr("name");
+    price = $(e).attr("price");;
+    // qty = ???;
+    console.log(name1);
+
 }
 
 //Popup Invoice

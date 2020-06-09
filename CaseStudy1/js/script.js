@@ -45,7 +45,7 @@ function invoice() {
     //Take everything from shopping cart
     $("#invoicePlace").empty();
     i = 0;
-    while ($("#rightDiv").children().length){
+    while (i < $("#rightDiv").children().length){
         console.log($("#rightDiv").children()[i]);
         // $("#invoicePlace").append($("#rightDiv").children()[i]);
         i=i+1;

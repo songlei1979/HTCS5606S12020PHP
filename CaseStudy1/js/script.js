@@ -22,7 +22,6 @@ function addProductToCart(e) {
     qty = $(e).prev().val();
 
     cart.append("<p>Name: "+name1+"  Price: "+Number(price)*Number(qty) +"</p>");
-    $("#invoicePlace").append("<p>Name: "+name1+"  Price: "+Number(price)*Number(qty) +"</p>");
     total = total + Number(price)*Number(qty);
 }
 
@@ -44,7 +43,8 @@ function invoice() {
         }
     }
     //Take everything from shopping cart
-
+    $("#invoicePlace").empty();
+    $("#invoicePlace").append($("#rightDiv").children());
     $("#invoicePlace").append("<p>Total: "+total+"</p>")
 
 }

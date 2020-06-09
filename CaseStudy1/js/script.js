@@ -12,6 +12,8 @@ function leftDividerAnimation() {
 }
 //Left Divider Animation end
 
+total = 0 //total price will show in my invoice
+//localStorge
 //add product to cart
 function addProductToCart(e) {
     cart = $("#rightDiv");
@@ -20,55 +22,28 @@ function addProductToCart(e) {
     qty = $(e).prev().val();
 
     cart.append("<p>Name: "+name1+"  Price: "+Number(price)*Number(qty) +"</p>");
-
+    total = total + Number(price)*Number(qty);
 }
 
 //Popup Invoice
 
 function invoice() {
-
     modal = document.getElementById("myModal");
     modal.style.display = "block";
-
     // Get the <span> element that closes the modal
     cross = document.getElementsByClassName("close")[0];
     console.log(cross);
-
-
     cross.onclick = function() {
         modal.style.display = "none";
     }
-
-
 // When the user clicks anywhere outside of the modal, close it
     window.onclick = function(event) {
         if (event.target == modal) {
             modal.style.display = "none";
         }
     }
-
-
     //Take everything from shopping cart
-    cart = document.getElementById("rightDiv");
-    items = document.getElementsByClassName("orderedProducts");
-    //invoicePlace is the place we add items in
-    invoicePlace = document.getElementById("invoicePlace");
-    i = 0;
-    text = "<h2>Invoice</h2>";
-    while (i<items.length){
-        text += "<p>"+items[i].innerHTML+"</p>";
-        i++;
-    }
-
-    //calculate total
-    total = 0;
-    i = 0;
-    prices = document.getElementsByClassName("price");
-    while (i<prices.length){
-        console.log(prices[i].innerText);
-        total += Number(prices[i].innerText);
-        i++;
-    }
-    text += "<p>Total: $"+total+"</p>";
-    invoicePlace.innerHTML = text;
+    $('#rightDiv').each(function(i, ele) {
+        $("#myModal").append(ele);
+    });
 }

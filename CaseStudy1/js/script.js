@@ -46,8 +46,8 @@ function invoice() {
     $("#invoicePlace").empty();
     i = 0;
     while (i < $("#rightDiv").children().length){
-        console.log($("#rightDiv").children()[i]);
-        // $("#invoicePlace").append($("#rightDiv").children()[i]);
+        // console.log($("#rightDiv").children()[i]);
+        $("#invoicePlace").append($("#rightDiv").children()[i]);
         i=i+1;
     }
 

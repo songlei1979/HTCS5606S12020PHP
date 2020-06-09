@@ -43,7 +43,7 @@ function invoice() {
         }
     }
     //Take everything from shopping cart
-    $('#rightDiv').each(function(i, ele) {
-        $("#myModal").append(ele);
-    });
+    console.log($('#rightDiv').children());
+    $("#invoicePlace").append($('#rightDiv').children());
+
 }

@@ -18,7 +18,7 @@ function addProductToCart(e) {
     name1 = $(e).attr("name");
     price = $(e).attr("price");;
     // qty = ???;
-    console.log(name1);
+    console.log("hello world");
 
 }
 

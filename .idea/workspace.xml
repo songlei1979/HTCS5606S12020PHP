@@ -1,113 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e8567faf-702b-4121-bf6f-f65bbc24ae41" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Myles.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Myles/Bird.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Myles/Career.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Myles/Cat.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Myles/Chicken.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Myles/Dog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Myles/Fish.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Myles/Product.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Myles/Reptile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Myles/SmallAnimal.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Myles/aboutus.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Myles/footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Myles/header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Myles/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Myles/products.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/.idea/HTCS5606_casestudy1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/CSS/checkout.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/CSS/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/JS/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/checkout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/class/Category.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/class/DB.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/class/Product.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/class/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/image/CatFood1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/image/Catfd.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/image/Catwetfd1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/image/DogRoll.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/image/Dogroll1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/image/DryCat Food1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/image/DryCatFood.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/image/FrozenDogfd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/image/Kittenfd.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/image/WetCatFood.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/image/bird.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/image/birdfd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/image/birdfd1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/image/c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/image/call us.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/image/checkout.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/image/chicken.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/image/chickenfd1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/image/chickfd1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/image/chickfood.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/image/dg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/image/dog eating.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/image/dog food 1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/image/dog food2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/image/dog.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/image/dogfd.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/image/doghd.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/image/drydogfd1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/image/fb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/image/fish.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/image/fish1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/image/fishfd1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/image/fishfd2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/image/fishfd3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/image/fishfd4.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/image/fishfood.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/image/fishfood1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/image/frozendogfd1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/image/google.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/image/guinea pig.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/image/henfd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/image/henfd1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/image/images.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/image/insta.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/image/jumping-cute-playing-animals.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/image/kitty.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/image/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/image/mix pet.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/image/parrot.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/image/parrotfd.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/image/petfd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/image/rabbit.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/image/search.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/image/sign up.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/image/small pet.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/image/store 3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/image/store 5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/image/store1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/image/store2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/image/store4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/image/store6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/image/twitter.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/loginregister.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/products.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/register.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/shopbypet.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shweta/storelocation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CaseStudy1/aboutus.php" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy1/aboutus.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CaseStudy1/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy1/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CaseStudy1/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy1/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CaseStudy1/products.php" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy1/products.php" afterDir="false" />
-    </list>
+    <list default="true" id="e8567faf-702b-4121-bf6f-f65bbc24ae41" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -197,7 +91,7 @@
       <workItem from="1591562123855" duration="1280000" />
       <workItem from="1591648448036" duration="7628000" />
       <workItem from="1591687061592" duration="1939000" />
-      <workItem from="1591693038064" duration="8144000" />
+      <workItem from="1591693038064" duration="9140000" />
     </task>
     <servers />
   </component>

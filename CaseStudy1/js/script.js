@@ -18,7 +18,8 @@ function addProductToCart(e) {
     name1 = $(e).attr("name");
     price = $(e).attr("price");
     qty = $(e).prev().val();
-    console.log(qty);
+
+    cart.append("<p>Name: "+name1+"  Price: "+Number(price)*Number(qty) +"</p>");
 
 }
 
